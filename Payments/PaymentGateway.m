@@ -9,7 +9,7 @@
 #import "PaymentGateway.h"
 
 @implementation PaymentGateway
--(void)processPaymentAmount:(NSInteger*)amt{
-    
+-(void)processPaymentAmount:(NSInteger)amt{
+    [self.paymentDelegate processPaymentAmount:amt];
 }
 @end
