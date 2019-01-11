@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PaymentGateway.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -21,6 +22,10 @@ int main(int argc, const char * argv[]) {
         int userSelection = [userInput integerValue];
         
         NSLog(@"the user selected: %i",userSelection);
+        
+        PaymentGateway *paymentGateway = [[PaymentGateway alloc] init];
+        
+        [paymentGateway processPaymentAmount:toPay];
         
     }
     return 0;
