@@ -12,6 +12,7 @@
 		0B38515421E8527600793C48 /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B38515321E8527600793C48 /* PaypalPaymentService.m */; };
 		0B38515721E8528900793C48 /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B38515621E8528900793C48 /* StripePaymentService.m */; };
 		0B38515A21E8529900793C48 /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B38515921E8529900793C48 /* AmazonPaymentService.m */; };
+		0B60E9BD21E92BF000865902 /* ApplePay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B60E9BC21E92BF000865902 /* ApplePay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		0B38515621E8528900793C48 /* StripePaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StripePaymentService.m; sourceTree = "<group>"; };
 		0B38515821E8529900793C48 /* AmazonPaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmazonPaymentService.h; sourceTree = "<group>"; };
 		0B38515921E8529900793C48 /* AmazonPaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
+		0B60E9BB21E92BF000865902 /* ApplePay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePay.h; sourceTree = "<group>"; };
+		0B60E9BC21E92BF000865902 /* ApplePay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				0B38515621E8528900793C48 /* StripePaymentService.m */,
 				0B38515821E8529900793C48 /* AmazonPaymentService.h */,
 				0B38515921E8529900793C48 /* AmazonPaymentService.m */,
+				0B60E9BB21E92BF000865902 /* ApplePay.h */,
+				0B60E9BC21E92BF000865902 /* ApplePay.m */,
 			);
 			path = Payments;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 				0B38514921E84F5B00793C48 /* main.m in Sources */,
 				0B38515A21E8529900793C48 /* AmazonPaymentService.m in Sources */,
 				0B38515121E8516000793C48 /* PaymentGateway.m in Sources */,
+				0B60E9BD21E92BF000865902 /* ApplePay.m in Sources */,
 				0B38515421E8527600793C48 /* PaypalPaymentService.m in Sources */,
 				0B38515721E8528900793C48 /* StripePaymentService.m in Sources */,
 			);

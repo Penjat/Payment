@@ -10,6 +10,13 @@
 
 @implementation PaymentGateway
 -(void)processPaymentAmount:(NSInteger)amt{
-    [self.paymentDelegate processPaymentAmount:amt];
+    
+    if([self.paymentDelegate canProcessPayment]){
+        [self.paymentDelegate processPaymentAmount:amt];
+        NSLog(@"payment processed sucsessfully.");
+        return;
+    }
+    NSLog(@"unable to process payment.");
+    
 }
 @end

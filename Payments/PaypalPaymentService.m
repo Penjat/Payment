@@ -11,7 +11,13 @@
 @implementation PaypalPaymentService
 
 - (void)processPaymentAmount:(NSInteger )payment { 
-    NSLog(@"payed with paypal");
+    NSLog(@"payed with paypal: $%li",payment);
 }
+
+- (BOOL)canProcessPayment {
+    //paypal always works
+    return YES;
+}
+
 
 @end
